@@ -11,6 +11,16 @@ header .container {
   height: 27.05rem;
 }
 
+main .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 6rem;
+  background: #000;
+  color: #fff;
+  height: 33.91rem;
+}
+
 .container .welcome-text {
   grid-column: 2 / span 1;
   justify-self: center;
@@ -20,4 +30,82 @@ header .container {
   font-size: 3.5rem;
   color: #fff;
   letter-spacing: 0.25rem;
+}
+
+.blue-bar {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  background: #33a8dd;
+  width: 12rem;
+  height: 2rem;
+}
+
+.container .blue-header {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .blue-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-self: center;
+  margin-top: 1.25vh;
+  width: 15vw;
+}
+
+.orange-bar {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  background: #f46731;
+  width: 12rem;
+  height: 2rem;
+}
+
+.container .orange-header {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .orange-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-self: center;
+  margin-top: 1.25vh;
+  width: 15vw;
+}
+
+.teal-bar {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  background: #2bcdc0;
+  width: 12rem;
+  height: 2rem;
+}
+
+.container .teal-header {
+  grid-column: 3;
+  grid-row: 1;
+  justify-self: center;
+  align-self: end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .teal-p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-self: center;
+  margin-top: 1.25vh;
+  width: 15vw;
 }
