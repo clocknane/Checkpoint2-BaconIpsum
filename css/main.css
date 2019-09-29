@@ -162,15 +162,13 @@ a:hover {
   width: 15vw;
 }
 
-@media (max-width: 576px) {
-  body {
-    display: grid;
-    width: 100%;
-    grid-template-areas:
-      "header"
-      "main";
-  }
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #000;
 }
 
-@media (min-width: 992px) {
+.jsvid {
+  grid-column: 2;
+  justify-self: center;
 }
