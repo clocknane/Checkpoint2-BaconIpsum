@@ -86,8 +86,8 @@ a:hover {
   justify-self: center;
   align-self: center;
   background: #33a8dd;
-  width: 12rem;
-  height: 2rem;
+  width: 12vw;
+  height: 3.3vh;
   transition: width 300ms ease-in-out, height 300ms ease-in-out;
 }
 
@@ -119,8 +119,8 @@ a:hover {
   justify-self: center;
   align-self: center;
   background: #f46731;
-  width: 12rem;
-  height: 2rem;
+  width: 12vw;
+  height: 3.3vh;
 }
 
 .container .orange-header {
@@ -145,8 +145,8 @@ a:hover {
   justify-self: center;
   align-self: center;
   background: #2bcdc0;
-  width: 12rem;
-  height: 2rem;
+  width: 12vw;
+  height: 3.3vh;
 }
 
 .container .teal-header {
@@ -178,9 +178,9 @@ a:hover {
 
 /* Media Queries */
 
-@media (max-width: 650px) {
+@media (max-width: 1010px) {
   header a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .fb {
@@ -215,7 +215,30 @@ a:hover {
     animation-iteration-count: infinite;
   }
 
-  .container {
-    grid-area: container;
+  .container .blue-p {
+    display: block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .container .orange-header {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container .orange-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .container .teal-p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  h1 a {
+    font-size: 25px;
   }
 }
